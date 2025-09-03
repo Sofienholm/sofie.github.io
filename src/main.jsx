@@ -6,9 +6,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter
-      basename={import.meta.env.DEV ? "/" : "/YOUR-REPOSITORY-NAME/"}
-    >
+    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/sofie.github.io/"}>
       <App />
     </BrowserRouter>
   </React.StrictMode>
