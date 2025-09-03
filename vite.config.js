@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
   };
 
   if (command !== "serve") {
-    config.base = "sofie.github.io"; // 👈 Replace with your repository name
+    config.base = "sofie"; // 👈 Replace with your repository name
   }
 
   return config;
